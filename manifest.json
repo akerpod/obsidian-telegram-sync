@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-telegram-sync",
+  "name": "Telegram Sync",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "Sync Telegram messages with Obsidian vault",
+  "author": "Akerpod",
+  "authorUrl": "https://obsidian.md",
+  "isDesktopOnly": true
+}
