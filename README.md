@@ -30,6 +30,7 @@ This plugin allows you to sync Telegram messages with your Obsidian vault, creat
 - **Notes Folder**: The folder where message notes will be saved (default: "Telegram")
 - **Include Metadata**: Whether to include sender, date, and chat information in notes
 - **Support Bot Commands**: Enable or disable bot commands
+- **Template Settings**: Customize how messages are formatted using templates for different message types. Use `{{variables}}` for dynamic content.
 
 ## Bot Commands
 
@@ -69,6 +70,7 @@ Your bot token gives access to your Telegram bot, so keep it secure. The plugin 
 - If messages aren't being received, check that your bot token is correct
 - Ensure the "Telegram" folder (or your custom folder) exists in your vault
 - Check the console for any error messages
+- Error handling is implemented for message processing and bot operations. If you encounter issues, refer to the console logs for detailed error messages.
 
 ## License
 
